@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ece1bbb409.js"
+      crossorigin="anonymous"
+    ></script>
+    
+    <title>Facebook ui clone</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="/">
+          <img class="logo" src="/images/logo.png" alt="logo" srcset="" />
+        </a>
+        <ul>
+          <li>
+            <img src="/images/notification.png" alt="" srcset="" />
+            <img src="/images/inbox.png" alt="" srcset="" />
+            <img src="/images/video.png" alt="" srcset="" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="searchbox">
+          <img src="/images/search.png" alt="" srcset="" />
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div onClick="settingMenuToggle()" class="nav-u-icon online">
+          <img src="/images/profile.png" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="/images/profile-pic.png" alt="" srcset="" />
+            <div>
+              <p>Tarun Aggarwal</p>
+              <a href="profile.html">See more Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="/images/feedback.png" alt="" srcset="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="">Help us to improve</a>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <div class="settings-links">
+          <img src="/images/setting.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Setting & privacy
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/help.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Help & support
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/display.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Diaplay & Accessibility 
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/logout.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Logout
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- -------------------- left side menu -------------------- -->
+      <div class="left-sidebar">
+        <div class="imp-links">
+          <a href="">
+            <img src="/images/news.png" alt="" srcset="" />
+            Latest News
+          </a>
+
+          <a href="">
+            <img src="/images/friends.png" alt="" srcset="" />
+            Friends
+          </a>
+
+          <a href="">
+            <img src="/images/group.png" alt="" srcset="" />
+            Groups
+          </a>
+
+          <a href="">
+            <img src="/images/marketplace.png" alt="" srcset="" />
+            Market Place
+          </a>
+
+          <a href="">
+            <img src="/images/watch.png" alt="" srcset="" />
+            Watch
+          </a>
+          <a href="">See More</a>
+        </div>
+        <div class="shortcut-links">
+          <p>Your Shortcut</p>
+
+          <a href="">
+            <img src="/images/shortcut-1.png" alt="" srcset="" />
+            Web Developers
+          </a>
+          <a href="">
+            <img src="/images/shortcut-2.png" alt="" srcset="" />
+            Web Design Course</a
+          >
+          <a href="">
+            <img src="/images/shortcut-3.png" alt="" srcset="" />
+            Full Stack development</a
+          >
+          <a href="">
+            <img src="/images/shortcut-4.png" alt="" srcset="" />
+            Front End design</a
+          >
+        </div>
+      </div>
+      <!-- ------------------------------ main menu -------------------- -->
+      <div class="main-content">
+        <!-- storis -->
+
+        <div class="storygallery">
+          <div class="story story1">
+            <img src="/images/upload.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story">
+            <img src="/images/status-1.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story">
+            <img src="/images/status-2.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story">
+            <img src="/images/status-3.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+          <div class="story">
+            <img src="/images/status-4.png" alt="" srcset="" />
+            <p>Post Story</p>
+          </div>
+        </div>
+
+        <!-- activities -->
+        <div class="writepc">
+          <div class="user-profile">
+            <img src="/images/profile-pic.png" alt="" srcset="" />
+            <div>
+              <p>Tarun Aggarwal</p>
+              <small>Public <i class="fas fa-caret-down"></i></small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea
+              placeholder="What's In your mind Tarun Aggarwal"
+              rows="3"
+            ></textarea>
+            <div class="add-post-link">
+              <a href="">
+                <img src="/images/live-video.png" alt="" srcset="" />
+                Live Video
+              </a>
+              <a href="">
+                <img src="/images/photo.png" alt="" srcset="" />
+                Photo / Video
+              </a>
+              <a href="">
+                <img src="/images/feeling.png" alt="" srcset="" />
+                Feeling/Activity
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="postcontainer">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/images/profile-pic.png" alt="" srcset="" />
+              <div>
+                <p>Tarun Aggarwal</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="">
+              <i class="fas fa-ellipsis-v"></i>
+            </a>
+          </div>
+          <p class="posttext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+            ipsum, non perspiciatis cum doloremque officia magni! Ipsum mollitia
+            quis aliquid! Magnam in harum quibusdam qui?
+            <a href="">#Tarun Aggarwal</a>
+            <a href="">#morning</a>
+          </p>
+          <img
+            src="/images/feed-image-1.png"
+            class="post-img"
+            alt=""
+            srcset=""
+          />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div>
+                <img src="/images/like-blue.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="/images/comments.png" alt="" />
+                200
+              </div>
+              <div>
+                <img src="/images/share.png" alt="" />
+                300
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="/images/profile-pic.png" alt="" srcset="" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="postcontainer">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/images/profile-pic.png" alt="" srcset="" />
+              <div>
+                <p>Tarun Aggarwal</p>
+                <span>June 24 2021, 13:40 pm</span>
+              </div>
+            </div>
+            <a href="">
+              <i class="fas fa-ellipsis-v"></i>
+            </a>
+          </div>
+          <p class="posttext">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+            ipsum, non perspiciatis cum doloremque officia magni! Ipsum mollitia
+            quis aliquid! Magnam in harum quibusdam qui?
+            <a href="">#Tarun Aggarwal</a>
+            <a href="">#morning</a>
+          </p>
+          <img
+            src="/images/feed-image-1.png"
+            class="post-img"
+            alt=""
+            srcset=""
+          />
+          <div class="post-row">
+            <div class="activity-icon">
+              <div>
+                <img src="/images/like-blue.png" alt="" />
+                120
+              </div>
+              <div>
+                <img src="/images/comments.png" alt="" />
+                200
+              </div>
+              <div>
+                <img src="/images/share.png" alt="" />
+                300
+              </div>
+            </div>
+            <div class="post-profile-icon">
+              <img src="/images/profile-pic.png" alt="" srcset="" />
+              <i class="fas fa-caret-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <button class="load-more-btn">Load More</button>
+      </div>
+      <!-- -------------------------------------- right side menu -------------------- -->
+      <div class="right-sidebar">
+        <div class="sidebar-title">
+          <h4>Events</h4>
+          <a href="#">See All</a>
+        </div>
+
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit.</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit.</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit.</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social Media</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Lorem ipsum dolor sit.</p>
+            <a href="#">More Info</a>
+          </div>
+        </div>
+
+        <div class="sidebar-title">
+          <h4>Advertisment</h4>
+          <a href="#">Close</a>
+        </div>
+
+        <img
+          src="/images/advertisement.png"
+          class="sidebar-ad"
+          alt=""
+          srcset=""
+        />
+
+        <div class="sidebar-title">
+          <h4>Converstions</h4>
+          <a href="#">Hide chat</a>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/member-1.png" alt="" srcset="" />
+          </div>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/member-1.png" alt="" srcset="" />
+          </div>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/member-2.png" alt="" srcset="" />
+          </div>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/member-3.png" alt="" srcset="" />
+          </div>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/member-4.png" alt="" srcset="" />
+          </div>
+          <p>Lorem, ipsum dolor.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2021 - Tarun Aggarwal</p>
+    </div>
+  </body>
+  <script src="/js/index.js"></script>
+</html>

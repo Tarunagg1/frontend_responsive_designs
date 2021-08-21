@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/ece1bbb409.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Profile page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-left">
+        <a href="/">
+          <img class="logo" src="/images/logo.png" alt="logo" srcset="" />
+        </a>
+        <ul>
+          <li>
+            <img src="/images/notification.png" alt="" srcset="" />
+            <img src="/images/inbox.png" alt="" srcset="" />
+            <img src="/images/video.png" alt="" srcset="" />
+          </li>
+        </ul>
+      </div>
+      <div class="nav-right">
+        <div class="searchbox">
+          <img src="/images/search.png" alt="" srcset="" />
+          <input type="text" placeholder="Search..." />
+        </div>
+        <div onClick="settingMenuToggle()" class="nav-u-icon online">
+          <img src="/images/profile.png" alt="" srcset="" />
+        </div>
+      </div>
+
+      <div class="settings-menu">
+        <div id="dark-btn">
+          <span></span>
+        </div>
+        <div class="settings-menu-inner">
+          <div class="user-profile">
+            <img src="/images/profile-pic.png" alt="" srcset="" />
+            <div>
+              <p>Tarun Aggarwal</p>
+              <a href="profile.html">See more Profile</a>
+            </div>
+          </div>
+          <hr />
+          <div class="user-profile">
+            <img src="/images/feedback.png" alt="" srcset="" />
+            <div>
+              <p>Give Feedback</p>
+              <a href="">Help us to improve</a>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+        <div class="settings-links">
+          <img src="/images/setting.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Setting & privacy
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/help.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Help & support
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/display.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Diaplay & Accessibility
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+        <div class="settings-links">
+          <img src="/images/logout.png" class="settingicon" alt="" srcset="" />
+          <a href="">
+            Logout
+            <img src="/images/arrow.png" alt="" srcset="" />
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- profile page -->
+    <div class="profileContainer">
+      <img src="/images/cover.png" class="coverimg" alt="" srcset="" />
+
+      <div class="profile-details">
+        <div class="pdleft">
+          <div class="pdrow">
+            <img src="/images/profile.png" class="pdimage" alt="" srcset="" />
+            <div>
+              <h3>Tarun Aggarwal</h3>
+              <p>120 Friends - 20 Mutual</p>
+              <img src="/images/member-1.png" alt="member" />
+              <img src="/images/member-2.png" alt="member" />
+              <img src="/images/member-3.png" alt="member" />
+              <img src="/images/member-4.png" alt="member" />
+            </div>
+          </div>
+        </div>
+
+        <div class="pdright">
+          <button type="button">
+            <img src="/images/add-friends.png" /> Friends
+          </button>
+          <button type="button">
+            <img src="/images/message.png" /> Message
+          </button>
+          <br />
+          <a href="">
+            <img src="/images/more.png" alt="" srcset="" />
+          </a>
+        </div>
+      </div>
+
+      <div class="profile-info">
+        <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="innner-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima illo magni unde quas quidem sit animi inventore corporis sed commodi? <img src="/images/feeling.png"> </p>
+
+                <hr />
+                <ul>
+                    <li><img src="/images/profile-job.png"> Lorem ipsum dolor sit amet.</li>
+                    <li><img src="/images/profile-job.png">Studies at pdm university</li>
+                    <li><img src="/images/profile-study.png">Lorem ipsum dolor sit amet.</li>
+                    <li><img src="/images/profile-location.png">Studies at pdm university</li>
+                    <li><img src="/images/profile-study.png">Studies at pdm university</li>
+                </ul>
+            </div>
+
+            <div class="profile-intro">
+              <div class="titlebox">
+                <h3>Photos</h3>
+                <a href="">All Photos</a>
+                
+              </div>
+              <div class="photobox">
+                  <div>
+                      <img src="/images/photo1.png">
+                  </div>
+                  <div>
+                    <img src="/images/photo2.png">
+                </div>
+                <div>
+                    <img src="/images/photo3.png">
+                </div>
+                <div>
+                    <img src="/images/photo4.png">
+                </div>
+                <div>
+                    <img src="/images/photo5.png">
+                </div>
+                <div>
+                    <img src="/images/photo6.png">
+                </div>
+                
+              </div>
+            </div>
+            
+            <div class="profile-intro">
+                <div class="titlebox">
+                  <h3>Friends</h3>
+                  <a href="">All Photos</a>
+                </div>
+                <p>120 (10 mutual)</p>
+                <div class="photobox firendbox">
+                    <div>
+                        <img src="/images/photo1.png">
+                        <p>Lorem, ipsum.</p>
+                    </div>
+                    <div>
+                      <img src="/images/photo2.png">
+                      <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                      <img src="/images/photo3.png">
+                      <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                      <img src="/images/photo4.png">
+                      <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                      <img src="/images/photo5.png">
+                      <p>Lorem, ipsum.</p>
+                  </div>
+                  <div>
+                      <img src="/images/photo6.png">
+                      <p>Lorem, ipsum.</p>
+                  </div>
+                  
+                </div>
+              </div>
+              
+            <div class="profile-intro">
+                <div All Friends"titlebox">
+                  <h3>Photos</h3>
+                  <a href="">All Photos</a>
+                  
+                </div>
+                <div class="photobox">
+                    <div>
+                        <img src="/images/photo1.png">
+                    </div>
+                    <div>
+                      <img src="/images/photo2.png">
+                  </div>
+                  <div>
+                      <img src="/images/photo3.png">
+                  </div>
+                  <div>
+                      <img src="/images/photo4.png">
+                  </div>
+                  <div>
+                      <img src="/images/photo5.png">
+                  </div>
+                  <div>
+                      <img src="/images/photo6.png">
+                  </div>
+                  
+                </div>
+              </div>
+              
+              
+        </div>
+        <div class="post-col">
+          <div class="writepc">
+            <div class="user-profile">
+              <img src="/images/profile-pic.png" alt="" srcset="" />
+              <div>
+                <p>Tarun Aggarwal</p>
+                <small>Public <i class="fas fa-caret-down"></i></small>
+              </div>
+            </div>
+            <div class="post-input-container">
+              <textarea
+                placeholder="What's In your mind Tarun Aggarwal"
+                rows="3"
+              ></textarea>
+              <div class="add-post-link">
+                <a href="">
+                  <img src="/images/live-video.png" alt="" srcset="" />
+                  Live Video
+                </a>
+                <a href="">
+                  <img src="/images/photo.png" alt="" srcset="" />
+                  Photo / Video
+                </a>
+                <a href="">
+                  <img src="/images/feeling.png" alt="" srcset="" />
+                  Feeling/Activity
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="postcontainer">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <div>
+                  <p>Tarun Aggarwal</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="">
+                <i class="fas fa-ellipsis-v"></i>
+              </a>
+            </div>
+            <p class="posttext">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              ipsum, non perspiciatis cum doloremque officia magni! Ipsum
+              mollitia quis aliquid! Magnam in harum quibusdam qui?
+              <a href="">#Tarun Aggarwal</a>
+              <a href="">#morning</a>
+            </p>
+            <img
+              src="/images/feed-image-1.png"
+              class="post-img"
+              alt=""
+              srcset=""
+            />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div>
+                  <img src="/images/like-blue.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="/images/comments.png" alt="" />
+                  200
+                </div>
+                <div>
+                  <img src="/images/share.png" alt="" />
+                  300
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="postcontainer">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <div>
+                  <p>Tarun Aggarwal</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="">
+                <i class="fas fa-ellipsis-v"></i>
+              </a>
+            </div>
+            <p class="posttext">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              ipsum, non perspiciatis cum doloremque officia magni! Ipsum
+              mollitia quis aliquid! Magnam in harum quibusdam qui?
+              <a href="">#Tarun Aggarwal</a>
+              <a href="">#morning</a>
+            </p>
+            <img
+              src="/images/feed-image-1.png"
+              class="post-img"
+              alt=""
+              srcset=""
+            />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div>
+                  <img src="/images/like-blue.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="/images/comments.png" alt="" />
+                  200
+                </div>
+                <div>
+                  <img src="/images/share.png" alt="" />
+                  300
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="postcontainer">
+            <div class="post-row">
+              <div class="user-profile">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <div>
+                  <p>Tarun Aggarwal</p>
+                  <span>June 24 2021, 13:40 pm</span>
+                </div>
+              </div>
+              <a href="">
+                <i class="fas fa-ellipsis-v"></i>
+              </a>
+            </div>
+            <p class="posttext">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit
+              ipsum, non perspiciatis cum doloremque officia magni! Ipsum
+              mollitia quis aliquid! Magnam in harum quibusdam qui?
+              <a href="">#Tarun Aggarwal</a>
+              <a href="">#morning</a>
+            </p>
+            <img
+              src="/images/feed-image-1.png"
+              class="post-img"
+              alt=""
+              srcset=""
+            />
+            <div class="post-row">
+              <div class="activity-icon">
+                <div>
+                  <img src="/images/like-blue.png" alt="" />
+                  120
+                </div>
+                <div>
+                  <img src="/images/comments.png" alt="" />
+                  200
+                </div>
+                <div>
+                  <img src="/images/share.png" alt="" />
+                  300
+                </div>
+              </div>
+              <div class="post-profile-icon">
+                <img src="/images/profile-pic.png" alt="" srcset="" />
+                <i class="fas fa-caret-down"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Copyright 2021 - Tarun Aggarwal</p>
+    </div>
+  </body>
+  <script src="/js/index.js"></script>
+</html>
