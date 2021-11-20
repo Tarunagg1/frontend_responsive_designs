@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("fonts/Graphik-Medium-Web.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Global Style */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins";
+  color: #342d42;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.img-overlay:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #002e5d9c;
+  left: 0;
+  top: 0;
+  opacity: 0.85;
+}
+
+.z-99 {
+  z-index: 99;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* max-width: 500px; */
+}
+.navbar-brand .w-100 {
+  width: 80% !important;
+}
+
+.btn {
+  outline: none !important;
+}
+
+.btn-blue {
+  background: #002e5d;
+  border-radius: 5px;
+  /* color: #fff; */
+  /* font-weight: 700; */
+  border: 1px solid #002e5d;
+  font-size: 16px;
+  padding: 1rem 3rem 1rem 2rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-weight: 700;
+  /* padding-left: 25px; */
+  /* padding-right: 25px; */
+  transition: all 0.2s ease;
+  border-bottom: 4px solid #19436e;
+  position: relative;
+}
+
+.btn-blue i,
+.btn-white i {
+  transition: all 0.3s;
+  /* margin-left: 1rem !important; */
+  position: absolute;
+  top: 40%;
+}
+
+.btn-blue:hover i,
+.btn-white:hover i {
+  margin-left: 1rem !important;
+}
+
+.btn-blue:hover {
+  background: #002e5d;
+  opacity: 0.8;
+  border: 1px solid #002e5d;
+  border-bottom: 4px solid #19436e;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-weight: 700;
+}
+
+.f-600 {
+  font-weight: 600;
+}
+
+.f-700 {
+  font-weight: 700;
+}
+
+.bg-blue {
+  background-color: #002e5d !important;
+}
+
+div#small-banner {
+  padding: 180px 0 100px;
+  height: auto;
+}
+
+.line-height-1-5 {
+  line-height: 1.5;
+}
+
+/* Global Style */
