@@ -1,4 +1,3 @@
-AOS.init();
 const navIcon = document.querySelector('.nav__icon');
 const navClose = document.querySelector('.nav__close');
 const nav_List = document.querySelector('.nav__list');
@@ -21,7 +20,14 @@ nav__bgOverlay.addEventListener('click', closeOpen);
 navClose.addEventListener('click', closeOpen);
 
 
-
-
+AOS.init({
+    offset: 200,
+    delay: 100,
+    duration: 400,
+    easing: 'ease',
+    once: false,
+    mirror: false,
+    anchorPlacement: 'top-bottom'
+});
 
 
