@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./component.css" />
     <link rel="stylesheet" href="./home.css" />
     <link rel="stylesheet" href="about.css">
-    
     <title>menu</title>
 </head>
 
@@ -57,7 +56,85 @@
         </div>
     </div>
     <!-- End Nav Section -->
+      <!-- store info -->
+  <section id="storeinfo" data-aos="fade-up">
+    <div class="container">
+      <div class="storeinfo__wrapper">
+        <div class="storeinfo__item">
+          <div class="storeinfo__icon">
+            <img src="./images/wall-clock-icon.svg" alt="" srcset="">
+          </div>
+          <h3 class="storeinfo__title">
+            10Am - 7Pm
+          </h3>
+          <p class="storinfo__text">
+            Opening Hour
+          </p>
+        </div>
+
+        <div class="storeinfo__item">
+          <div class="storeinfo__icon">
+            <img src="./images/address-icon.svg" alt="" srcset="">
+          </div>
+          <h3 class="storeinfo__title">
+            Rohini, In
+          </h3>
+          <p class="storinfo__text">
+            Address
+          </p>
+        </div>
+
+        <div class="storeinfo__item">
+          <div class="storeinfo__icon">
+            <img src="./images/phone-icon.svg" alt="" srcset="">
+          </div>
+          <h3 class="storeinfo__title">
+            +91 7892552885
+          </h3>
+          <p class="storinfo__text">
+            Call now
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end store info -->
+
     
+    <!-- Contact Form Section -->
+    <section id="form" data-aos="fade-down">
+        <div class="container">
+            <h3 class="form__title">
+                Contact & Inquiry
+            </h3>
+            <div class="form__wrapper">
+                <form name="contact" method="POST" netlify>
+                    <div class="form__group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" id="firstName" name="First Name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" id="lastName" name="Last Name" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="Email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="Subject" required>
+                    </div>
+                    <div class="form__group form__group__full">
+                        <label for="message">Message</label>
+                        <textarea name="Message" id="message" cols="30" rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Form Section-->
 
     <!-- FOOTER -->
     <footer>
@@ -178,4 +255,5 @@
 
 </body>
 <script src="index.js"></script>
+
 </html>
