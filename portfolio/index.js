@@ -29,6 +29,20 @@ p_buttons.addEventListener('click', function (e) {
 })
 
 
+// slider
+const myJsmedia = (widthSize) => {
+    if (widthSize.matches) {
+      new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+      });
+    } else {
+      new Swiper(".mySwiper", {
+        slidesPerView: 2,
+        spaceBetween: 30,
+      });
+    }
+  };
 
 
 

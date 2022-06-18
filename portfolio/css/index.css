@@ -418,3 +418,156 @@ BIO Section Start
 .p-image-not-active {
   display: none;
 }
+
+/*  ======================================== 
+Our work counter Section Start  
+========================================   */
+
+.section-work-data {
+  background: var(--gradientSupport);
+  text-align: center;
+  transition: all 0.7s linear;
+}
+
+.counter-numbers {
+  font-size: 4.8rem;
+}
+
+.section-work-data h2 {
+  color: var(--white);
+}
+.section-work-data p {
+  color: var(--white);
+
+  text-transform: uppercase;
+}
+
+/* ======================================== 
+  Our Services  Section Start  
+======================================== */
+
+.section-services {
+  transition: all 0.7s linear;
+}
+
+.section-services p {
+  max-width: 60rem;
+}
+
+.section-services .grid {
+  row-gap: 10rem;
+  margin-top: 10rem;
+}
+
+.service-box {
+  text-align: center;
+  box-shadow: var(--shadow);
+  border-radius: 5px;
+  padding: 6.4rem 3.4rem;
+  cursor: pointer;
+  transition: all 0.7s linear;
+}
+
+.service-box:hover,
+.service-box:active {
+  transform: translateY(-3rem);
+}
+
+.service-icon {
+  width: 8rem;
+  height: 8rem;
+  background-color: rgb(144, 172, 209/20%);
+  display: inline-block;
+  border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  padding: 1.4rem 1.8rem;
+  position: relative;
+  color: var(--heading);
+  animation: water-wave 3s linear infinite;
+}
+
+@keyframes water-wave {
+  0% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+  50% {
+    border-radius: 3% 97% 15% 85% / 72% 0% 100% 28%;
+  }
+  100% {
+    border-radius: 56% 44% 70% 30% / 30% 54% 46% 70%;
+  }
+}
+
+.service-box h3 {
+  text-transform: capitalize;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+
+
+/* ======================================== 
+Our Freelancing   Section Start  
+========================================  */
+.section-freelancing {
+  background-image: url("../images/folio/3.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+  transition: all 0.7s linear;
+  text-align: center;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--overlay);
+  opacity: 0.7;
+}
+
+.section-freelancing .container{
+  position: relative;
+}
+
+.section-freelancing h2{
+  font-size: 5.4rem;
+}
+
+.section-freelancing span{
+  color: #a0f669;
+}
+
+.section-freelancing h2, .section-freelancing p{
+  color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
