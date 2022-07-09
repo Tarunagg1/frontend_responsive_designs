@@ -106,11 +106,19 @@ const workObserver = new IntersectionObserver(
 
 
 
-// workObserver.observe(workSection);
+workObserver.observe(workSection);
 
 
 
 
+// navbar
+const movile_nav = document.querySelector(".mobile-navbar-btn");
+const header = document.querySelector(".header");
+
+
+movile_nav.addEventListener("click",()=>{
+  header.classList.toggle("active")
+})
 
 
 
