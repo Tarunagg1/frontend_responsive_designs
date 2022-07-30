@@ -96,11 +96,6 @@ menuItem.forEach((ele, i) => {
         sliderWrapper.style.transform = `translateX(${i * -100}vw)`;
         choosenProduct = products[i];
 
-
-
-        //change the choosen product
-        choosenProduct = products[i];
-
         //change texts of currentProduct
         currentProductTitle.textContent = choosenProduct.title;
         currentProductPrice.textContent = "$" + choosenProduct.price;
@@ -134,7 +129,18 @@ currentProductSizes.forEach((size) => {
 });
 
 
+const productButton = document.querySelector('.productButton');
+const paymentModel = document.querySelector('.payment');
+const close = document.querySelector('.close');
 
+
+productButton.addEventListener('click', () =>{
+    paymentModel.style.display = 'flex';
+})
+
+close.addEventListener('click', () =>{
+    paymentModel.style.display = 'none';
+})
 
 
 
