@@ -3,6 +3,8 @@
 /custom_testimonial_slider
 /Survey_form
 /Technical-documentation
+node_modules/
+/node_modules/
 
 
 ---
